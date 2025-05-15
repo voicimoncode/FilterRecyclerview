@@ -1,25 +1,22 @@
 package com.example.recyclerviewexamplo
 
-class SuperHeroProvider {
+class ElementProvider {
     companion object{
-        val superheroList = listOf<SuperHero>(
-            SuperHero(
-                "KotlinMan",
-                "Jetbrains",
-                "AristiDevs",
-                "https://cursokotlin.com/wp-content/uploads/2020/09/Webp.net-compress-image.jpg"
+        val ElementList = listOf<Element>(
+            Element(
+                "Element1",
+                "This is the first element",
+                "https://element1.jpg"
             ),
-            SuperHero(
-                "Spiderman",
-                "Marvel",
-                "Peter Parker",
-                "https://cursokotlin.com/wp-content/uploads/2017/07/spiderman.jpg"
+            Element(
+                "Element2",
+                "This is the second element",
+                "https://element2.jpg"
             ),
-            SuperHero(
-                "Daredevil",
-                "Marvel",
-                "Matthew Michael Murdock",
-                "https://cursokotlin.com/wp-content/uploads/2017/07/daredevil.jpg"
+            Element(
+                "Element3",
+                "This is the third element",
+                "https://elemen3.jpg"
             ),
             SuperHero(
                 "Wolverine",
